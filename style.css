@@ -1,0 +1,24 @@
+carpeta style.css 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(250, 252, 180);
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+    }
+
+#header{
+    height: : 110px;
+    background-color: #630536
+    Color: white
+    
+
+
+}
