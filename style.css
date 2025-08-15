@@ -15,10 +15,10 @@ body{
     }
 
 #header{
-    height: : 110px;
-    background-color: #630536
-    Color: white
-    
-
-
+    height: 110px;
+    background-color: brown;
+    color: wheat;
+    text-align: center;
+    line-height: 100px;
+ 
 }
