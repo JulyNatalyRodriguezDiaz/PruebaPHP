@@ -5,7 +5,7 @@ carpeta style.css
     padding: 0px;
 }
 body{
-    background-color: rgb(255, 237, 213);
+    background-color: rgb(229, 213, 255);
 }
 
 #container{
@@ -15,34 +15,46 @@ body{
     }
 
 #header{
-    height: 110px;
-    background-color: rgb(255, 254, 180);
+    height: 145px;
+    background-color: rgb(171, 140, 243);
     color: rgb(0, 0, 0);
     text-align: center;
     line-height: 100px;
  
 }
 
+#logo{
+    padding: 20px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+}
+
 #menu{
 
-    background-color: rgb(255, 254, 180);
-    color: rgb(0, 0, 0);
+    background-color: rgb(199, 162, 248);
+    color: rgb(76, 15, 175);
     height: 50px;
-    border-bottom: 4px solid rgb(98, 0, 255);
+    border-bottom: 4px solid rgb(111, 0, 255);
 
 }
 
 #menu ul{
     list-style: none;
     text-decoration: none;
-    margin: 10px auto;
-    margin-left: 1px;
+    margin: 0px auto;
+    margin-left: 25px;
 
 
 }
 
 #menu ul li{
-    line-height: 22px;
+    line-height: 55px;
     float: left;
     border-right: 1px solid rgb(12, 8, 0);
 }
@@ -56,5 +68,5 @@ body{
 }
 
 #menu a:hover{
-    background: rgb(255, 217, 0);
+    background: rgb(98, 0, 255);
 }
