@@ -1,15 +1,22 @@
+<<<<<<< HEAD
 carpeta style.css 
 
+=======
+>>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(229, 213, 255);
 =======
     background-color: rgb(255, 237, 213);
 >>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
+=======
+    background-color: rgb(207, 183, 255);
+>>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
 }
 
 #container{
@@ -19,6 +26,7 @@ body{
     }
 
 #header{
+<<<<<<< HEAD
 <<<<<<< HEAD
     height: 145px;
     background-color: rgb(171, 140, 243);
@@ -85,10 +93,31 @@ body{
     margin-left: 1px;
 >>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
 
+=======
+    height: 110px;
+    background-color: rgb(117, 76, 212);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+#menu{
+    background-color: rgb(137, 43, 180);
+    color: white;
+    height: 50px;
+    border-bottom: 4px solid black;
+}
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+>>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
 
 }
 
 #menu ul li{
+<<<<<<< HEAD
 <<<<<<< HEAD
     line-height: 55px;
 =======
@@ -96,10 +125,16 @@ body{
 >>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
     float: left;
     border-right: 1px solid rgb(12, 8, 0);
+=======
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid black
+>>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
 }
 
 #menu a{
     display: block;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding-left: 12px;
@@ -115,3 +150,14 @@ body{
 }
 
 >>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
+=======
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12PX;
+}
+
+#menu a:hover{
+    background: rgb(76, 5, 117);
+}
+>>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
