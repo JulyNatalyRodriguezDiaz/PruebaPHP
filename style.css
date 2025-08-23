@@ -1,163 +1,74 @@
-<<<<<<< HEAD
-carpeta style.css 
-
-=======
->>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
-*{
-    margin: 0px;
-    padding: 0px;
+carpeta style.css
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: rgb(229, 213, 255);
-=======
-    background-color: rgb(255, 237, 213);
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
-=======
-    background-color: rgb(207, 183, 255);
->>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
+body {
+  background-color: rgb(213, 156, 224);
 }
 
-#container{
-    width: 80%;
-    margin: 0px auto;
-    border: 1px solid black;
-    }
-
-#header{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 145px;
-    background-color: rgb(171, 140, 243);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    line-height: 100px;
- 
-=======
-    height: 110px;
-    background-color: rgb(255, 254, 180);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    line-height: 100px;
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
+#container {
+  width: 80%;
+  margin: 0px auto;
+  border: 1px solid black;
 }
-
+#header {
+  height: 145px;
+  background-color: rgb(154, 58, 167);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
 #logo{
-    padding: 20px;
-<<<<<<< HEAD
-    margin-left: 5px;
-    float: left;
-
-=======
-    margin-left: 20px;
-    float: left;
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
+  padding: 20px;
+  margin-left: 20px;
+  float: left;
 }
-
 #logo img{
-    float: left;
-    height: 100px;
-<<<<<<< HEAD
+  float: left;
+  height: 100px;
 }
-
-#menu{
-
-    background-color: rgb(199, 162, 248);
-    color: rgb(76, 15, 175);
+#menu {
+    background-color: rgb(188, 124, 190);
+    color: white;
     height: 50px;
-    border-bottom: 4px solid rgb(111, 0, 255);
-=======
-
-}
-
-
-#menu{
-
-    background-color: rgb(255, 254, 180);
-    color: rgb(0, 0, 0);
-    height: 50px;
-    border-bottom: 4px solid rgb(98, 0, 255);
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
-
+    border-bottom: 4px solid rgb(153, 64, 149);
 }
 
 #menu ul{
     list-style: none;
     text-decoration: none;
-<<<<<<< HEAD
     margin: 0px auto;
     margin-left: 25px;
-=======
-    margin: 10px auto;
-    margin-left: 1px;
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
-
-=======
-    height: 110px;
-    background-color: rgb(117, 76, 212);
-    color: white;
-    text-align: center;
-    line-height: 100px;
 }
-
-#menu{
-    background-color: rgb(137, 43, 180);
-    color: white;
-    height: 50px;
-    border-bottom: 4px solid black;
-}
-#menu ul{
-    list-style: none;
-    text-decoration: none;
-    margin: 0px auto;
-    margin-left: 25px;
->>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
-
-}
-
 #menu ul li{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    line-height: 55px;
-=======
-    line-height: 22px;
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
-    float: left;
-    border-right: 1px solid rgb(12, 8, 0);
-=======
     line-height: 55px;
     float: left;
-    border-right: 1px solid black
->>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
+    border-right: 1px solid rgb(139, 70, 124);
 }
-
 #menu a{
     display: block;
-<<<<<<< HEAD
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 #menu a:hover{
-<<<<<<< HEAD
-    background: rgb(98, 0, 255);
-}
-=======
-    background: rgb(255, 217, 0);
+    background: rgb(158, 91, 144);
 }
 
->>>>>>> 868d02a5d80fff0fc8fcb5ae813cf66fede6554b
-=======
-    color: white;
-    text-decoration: none;
-    padding-left: 12px;
-    padding-right: 12PX;
+#content{
+    margin: 0px auto;
+    background: white;
 }
 
-#menu a:hover{
-    background: rgb(76, 5, 117);
+/* barra lateral */
+#lateral{
+    width: 20%;
+    border: 1px solid rgb(100, 6, 252);
 }
->>>>>>> 1afaa61734be075558031d042a94e0cc7cd37837
+
+#central{
+    width: 80%;
+    border: 1px solid rgb(100, 6, 252);
+}
