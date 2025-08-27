@@ -72,7 +72,7 @@ body {
 #lateral{
     width: 17%;
     min-height: 650px;
-    border: 1px solid rgb(100, 6, 252);
+    /* boder: 1px solid blue; */
     float:left;
     margin-top: 20px;
     margin-left: 10px;
@@ -91,18 +91,95 @@ body {
   color: black;
   width: 100%;
   text-align: center;
+  align-items: center;
   padding-top: 5px;
   padding-bottom: 15px;
+  font-size: 16px;
   font-weight: bold;
   background: rgb(175, 117, 230);
   border-bottom: 2px solid rgb(100, 6, 252);;
 }
 
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  display: block;
+  width: 95%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid rgb(100, 6, 252);
+  box-shadow: 0px 0px 2px rgb(100, 6, 252);
+  background: white;
+  padding: 2px;
+  color: blueviolet;
+  transition: all 300ms;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus{
+  border: 1px solid rgb(183, 143, 247);
+  color: black;
+}
+
+input[type="submit"],
+input[type="button"],
+.button{
+  display: block;
+  border-radius: 2px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rebeccapurple;
+  color: white;
+  cursor: pointer;
+}
+
 #central{
     width: 80%;
     min-height: 650px;
-    border: 1px solid rgb(100, 6, 252);
     float: right;
-    border: 1px solid black;
+    /* boder: 1px solid purple; */
+    border-left: 1px solid rgb(133, 127, 143);
+    box-shadow: -5px 1px 5px rgb(100, 6, 252);
+    padding: 5px;
     margin-top: 20px;
 }
+
+#central h1{
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  border-bottom: 1px solid rgb(174, 166, 187);
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.product{
+  width: 25%;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.product img{
+  height: 110px;
+  margin-bottom: 10px;
+}
+
+.product a{
+  color: beige;
+  text-decoration: none;
+}
+
+.product a:hover{
+  color: rgb(214, 125, 241);
+
+}
+
