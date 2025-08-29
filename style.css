@@ -72,7 +72,7 @@ body {
 #lateral{
     width: 17%;
     min-height: 650px;
-    /* boder: 1px solid blue; */
+    /* border: 1px solid blue; */
     float:left;
     margin-top: 20px;
     margin-left: 10px;
@@ -88,11 +88,10 @@ body {
 
 #lateral h3{
   display: block;
-  color: black;
+  color: white;
   width: 100%;
   text-align: center;
-  align-items: center;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 15px;
   font-size: 16px;
   font-weight: bold;
@@ -120,7 +119,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus{
   border: 1px solid rgb(183, 143, 247);
-  color: black;
+  margin-top: 20px;
 }
 
 input[type="submit"],
@@ -133,16 +132,17 @@ input[type="button"],
   padding-right: 10px;
   background: rebeccapurple;
   color: white;
+  border: 1px solid rgb(100, 6, 252);
   cursor: pointer;
 }
 
 #central{
     width: 80%;
-    min-height: 650px;
+    min-height: 600px;
     float: right;
-    /* boder: 1px solid purple; */
+    /* border: 1px solid purple; */
     border-left: 1px solid rgb(133, 127, 143);
-    box-shadow: -5px 1px 5px rgb(100, 6, 252);
+    box-shadow: -5px -1px 5px rgb(100, 6, 252);
     padding: 5px;
     margin-top: 20px;
 }
@@ -159,22 +159,22 @@ input[type="button"],
 }
 
 .product{
-  width: 25%;
+  width: 30%;
   float: left;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 30px;
   text-align: center;
 
 }
 
 .product img{
-  height: 110px;
+  height: 150px;
   margin-bottom: 10px;
 }
 
 .product a{
-  color: beige;
+  color: white;
   text-decoration: none;
 }
 
@@ -182,4 +182,15 @@ input[type="button"],
   color: rgb(214, 125, 241);
 
 }
+
+#footer{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(118, 18, 201);
+  color: white;
+  border-top: 5px solid rgb(139, 70, 124);
+
+}
+
 
