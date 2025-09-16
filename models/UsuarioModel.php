@@ -2,7 +2,7 @@
 
 require_once 'config/database.php';
 
-class Usurio {
+class Usuario {
     
     public $db;
     
@@ -74,4 +74,9 @@ class Usurio {
     function setImagen($imagen){
         $this->imagen = $imagen;
     }
+
+    public function conseguirTodos(){
+        echo "imprime todos los usuarios...";
+    }
+
 }
